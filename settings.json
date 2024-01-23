@@ -1,0 +1,136 @@
+{
+    // Windows
+    // "window.titleBarStyle": "native",
+    "window.zoomLevel": -1,
+    "window.titleSeparator": " › ",
+    "window.title": "✨ ${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}",
+    "window.menuBarVisibility": "toggle",
+    // Terminal
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.fontFamily": "MesloLGM Nerd Font Mono",
+    "terminal.integrated.gpuAcceleration": "off",
+    // diffEditor
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    // Files
+    "files.autoSave": "off",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    // Editor
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.suggestSelection": "first",
+    "editor.renderControlCharacters": false,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.4,
+    "editor.renderLineHighlight": "all",
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.smoothScrolling": true,
+    // "editor.rulers": [
+    //     80,
+    //     120
+    // ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    // workbench
+    "workbench.preferredHighContrastColorTheme": "Visual Studio Light",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.json": "default"
+    },
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.activityBar.location": "hidden",
+    // "workbench.statusBar.visible": false,
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    // Explorer
+    "explorer.compactFolders": false,
+    // Launch
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    // apc
+    "apc.statusBar": {
+        "height": 0,
+        "fontSize": 11,
+        "position": "bottom"
+    },
+    "apc.stylesheet": {
+        ".composite.title": "background: #121212; padding: 1px; height: 40px!important; display: flex!important; justify-content: center!important; align-itens: center!important;",
+        ".title-label": "background: #202020; width: 100%; border-radius: 12px; padding: 2px!important; display: flex; justify-content: center; height: 20px!important; margin: auto!important;",
+        ".title-label h2": "color: #ccc!important; line-height: 1.9;",
+        ".title-actions": "margin: auto!important; height: fit-content!important;",
+        ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit": "border-radius: 4px!important; border: none; --tab-border-top-color: #797979!important; overflow: hidden!important; height: 32px!important;background: #1b1d1f!important;",
+        ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container": "padding: 5px!important; border-radius: 4px!important; display: flex!important;gap: 5px!important;",
+        ".split-view-view > footer": "background: transparent!important; position: fixed!important; bottom: 10px!important; z-index:100!important; padding: 0 20px!important; outline: none!important;",
+        "footer": "border-radius: 30px;  height: 30px!important; background: transparent!important; --status-border-top-color: transparent!important; gap: 20px; ",
+        "footer > .items-container": "border-radius: 20px!important; overflow: hidden!important; height: 28px!important; background: #12121267; backdrop-filter: blur(10px); border: 1px solid #292b2b!important; "
+    },
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    // Python
+    "python.defaultInterpreterPath": "C:\\Users\\Windows\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "python.pythonPath": "C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
+    // Others
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "hediet.vscode-drawio.resizeImages": null,
+    "eslint.options": {},
+    "tabnine.experimentalAutoImports": true,
+    // "C_Cpp.updateChannel": "Insiders",
+    // Languages [Default Formatter]
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[csharp]": {
+        "editor.defaultFormatter": "csharpier.csharpier-vscode"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    // Go
+    "gopls": {},
+    "go.gopath": "D:\\Pasta Principal\\Programas\\Instalacao\\Go\\bin",
+    // PHP
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    // Emmet
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ]
+}
