@@ -71,7 +71,8 @@
         ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container": "padding: 5px!important; border-radius: 4px!important; display: flex!important;gap: 5px!important;",
         ".split-view-view > footer": "background: transparent!important; position: fixed!important; bottom: 10px!important; z-index:100!important; padding: 0 20px!important; outline: none!important;",
         "footer": "border-radius: 30px;  height: 30px!important; background: transparent!important; --status-border-top-color: transparent!important; gap: 20px; ",
-        "footer > .items-container": "border-radius: 20px!important; overflow: hidden!important; height: 28px!important; background: #12121267; backdrop-filter: blur(10px); border: 1px solid #292b2b!important; "
+        "footer > .items-container": "border-radius: 20px!important; overflow: hidden!important; height: 28px!important; background: #12121267; backdrop-filter: blur(10px); border: 1px solid #292b2b!important;",
+        ".terminal": "padding-bottom: 45px!important;",
     },
     "jupyter.interactiveWindow.creationMode": "perFile",
     // Python
